@@ -20,10 +20,9 @@
 ## 快速部署
 
 1. 将项目文件上传至 Web 目录
-2. 复制 `db_config.example.php` 为 `db_config.php`，填写数据库连接信息
-3. 浏览器访问 `install.php` 完成安装
-4. 安装完成后**务必删除** `install.php`
-5. 默认管理员账号：`admin`，密码：`admin123`，请登录后立即修改
+2. 浏览器访问 `install.php` 填写数据库连接信息，完成安装
+3. 安装完成后**务必删除** `install.php`
+4. 默认管理员账号：`admin`，密码：`admin123`，请登录后立即修改
 
 ## 目录结构
 
@@ -37,7 +36,7 @@
 ├── sc.php                 # 排行榜图片生成接口
 ├── install.php            # 安装向导
 ├── db_config.example.php  # 数据库配置模板
-├── db_config.php          # 数据库配置（需自行创建，已忽略）
+├── db_config.php          # 数据库配置（安装完后自动生成请忽略）
 ├── fonts/
 │   └── msyh.ttc           # 中文字体（排行榜图片用）
 ├── uploads/rankings/      # 排行榜图片存储目录
