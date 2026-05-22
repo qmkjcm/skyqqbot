@@ -391,7 +391,7 @@ GET /sc.php
 
 ## 注意事项
 
-- `db_config.php` 包含数据库密码，已被 `.gitignore` 忽略，不会上传至仓库
+- `db_config.php` 包含数据库密码
 - 安装完成后请删除 `install.php`
 - 请及时修改默认管理员密码
 - 排行榜图片生成依赖 `fonts/` 目录下的中文字体文件
