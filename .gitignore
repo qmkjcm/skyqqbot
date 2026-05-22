@@ -1,0 +1,16 @@
+db_config.php
+installed.lock
+.user.ini
+.well-known/
+
+uploads/rankings/*.png
+
+.idea/
+.vscode/
+*.log
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
