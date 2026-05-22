@@ -324,6 +324,7 @@ GET /rank.php
 ### 6. 排行榜图片生成
 
 生成排行榜图片并保存到服务器，返回图片 URL。
+此处需要把sc.php中的sky.qmkjcm.cn换成自己的域名
 
 **请求**
 
@@ -340,7 +341,7 @@ GET /sc.php
     "code": 200,
     "msg": "success",
     "data": {
-        "image_url": "https://skyapi.qmkjcm.cn/uploads/rankings/rank_20260523_164326_6a10172eb774e.png"
+        "image_url": "https://sky.qmkjcm.cn/uploads/rankings/rank_20260523_164326_6a10172eb774e.png"
     }
 }
 ```
