@@ -42,7 +42,7 @@ class RankImageGenerator
     
     private function fetchRankData()
     {
-        $url = 'http://skyapi.qmkjcm.cn/rank.php';
+        $url = 'http://sky.qmkjcm.cn/rank.php';
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -243,7 +243,7 @@ class RankImageGenerator
 }
 
 header('Content-Type: application/json; charset=utf-8');
-$baseUrl = 'https://skyapi.qmkjcm.cn';
+$baseUrl = 'https://sky.qmkjcm.cn';
 $saveDir = './uploads/rankings/';
 $generator = new RankImageGenerator($baseUrl, $saveDir);
 $result = $generator->generate();
